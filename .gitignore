@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+
+data/
+*.pyc
+.pytest_cache/
+.coverage
+
+# Downloaded base weights; the final .keras model already contains them.
+models/mobilenet_v2.h5
+
+# Intermediate training checkpoints; keep only LungAI_V4_final.keras.
+notebooks/models/model_v2.keras
+notebooks/models/lungai_v3_finetuned.keras
+notebooks/models/LungAI_V4.keras
